@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+imutils = "*"
+opencv-python = "*"
+h5py = "*"
+tensorflow-macos = "*"
+tensorflow-metal = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
